@@ -1,7 +1,7 @@
 ## Program: Coordinate Format
 ## Description: Given two variables (longitude, latitude), it
-## will round the coordinates and set the number of decimal
-## places equal to numDec.
+## will round the coordinates, set the number of decimal
+## places equal to numDec, and return a string.
 
 def coordinates(lon,lat):
     # Set numDec equal to how many decimal places you want.
