@@ -1,7 +1,7 @@
-## Program: Coordinate Creator
+## Program: Coordinate_Format.py
 ## Description: Given two variables (longitude, latitude), it
 ## will round the coordinates, set the number of decimal
-## places equal to numDec, and return a string.
+## places equal to dec, and return a string.
 
 def coordinates(dec,lon,lat):
     
