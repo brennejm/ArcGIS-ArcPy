@@ -8,7 +8,6 @@ def coordinates(dec,lon,lat):
     x = str(round(float(lon),dec))
     y = str(round(float(lat),dec))
 
-    # If any ending digits rounded to zero, pad the coordinate to equal numDec.
     if len(x[x.find('.')+1:]) < dec:
         while len(x[x.find('.')+1:]) < dec:
             x = x + '0'
