@@ -45,8 +45,8 @@ Make sure you change **numDec** to the number of decimal places required, and ch
 
 ```
 >>> numDec = 3
->>> lon = '-62.32898'
->>> lat = '20.87998'
->>> print(coordinates(numDec,lon,lat))
+>>> longitude = '-62.32898'
+>>> latitude = '20.87998'
+>>> print(coordinates(numDec,longitude,latitude))
 >>> -62.329, 20.880
 ```
